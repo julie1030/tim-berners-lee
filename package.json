@@ -1,5 +1,18 @@
 {
-  "dependencies": {
-    "vite": "^4.4.11"
-  }
+ "name": "tim-berners-lee",
+ "version": "1.0.0",
+ "description": "https://julie1030.github.io/tim-berners-lee/",
+ "main": "index.js",
+ "scripts": {
+  "start": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "vite": "^4.4.11"
+ }
 }
