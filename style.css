@@ -26,6 +26,7 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: rgb(64, 64, 64);
+
 }
 
 .article3 {
@@ -39,10 +40,36 @@ nav {
     font-size: 14px;
     background-color: rgb(27, 27, 45);
     color: azure;
+
+    display: flex;
 }
 
-.navinnav {
+.menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.menu item a {
+    color: white;
+}
+
+i {
+    padding: 2px;
+    padding-right: 5px;
+}
+
+.actions {}
+
+nav.navinnav {
+    padding: 5px;
     color: rgb(36, 36, 130);
+    background-color: white;
+}
+
+nav.navinnav item:not(:last-child)::after {
+    content: '>';
+    padding-left: 5px;
 }
 
 .chevron {
@@ -54,3 +81,18 @@ nav {
 .button2 {}
 
 .button3 {}
+
+.logo {
+    width: 5rem;
+    padding: 5px;
+}
+
+article {
+    display: flex;
+}
+
+@media (max-width: 579px) {
+    .article2 {
+        flex-direction: column-reverse;
+    }
+}
