@@ -1,0 +1,42 @@
+body {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    /* color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; */
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.subheader {
+    font-size: 16px;
+    font-stretch: semi-condensed;
+}
+
+.article1 {
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-size: 12px;
+    color: rgb(98, 97, 97);
+    font-style: italic;
+}
+
+.article2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(64, 64, 64);
+}
+
+.article3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(98, 97, 97);
+}
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: rgb(27, 27, 45);
+    color: azure;
+}
