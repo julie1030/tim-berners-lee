@@ -1,59 +1,81 @@
 body {
     color: black;
     font-family: 'Times New Roman', Times, serif;
+}
 
+h1 {
+    font-size: 22px;
+    line-height: 0px;
+}
+
+.subheader {
+    font-size: 16px;
+    margin-top: 0%;
+    padding: 0px;
+    line-height: 0px;
 }
 
 .boite1 {
     padding-left: 1rem;
-    border-left: 1px solid rgb(76, 75, 75);
+    border-left: 1px solid rgb(188, 187, 187);
 }
+
 
 .boite2 {
     padding-left: 1.3rem;
-    border-left: 1px solid rgb(76, 75, 75);
-    border-top: 1px solid rgb(76, 75, 75);
-    border-bottom: 1px solid rgb(76, 75, 75);
-    max-width: 60%;
+    border: 1px solid rgb(188, 187, 187);
+    width: 60%;
 }
 
 .boite3 {
-    border: 1px solid rgb(76, 75, 75);
+    border: 1px solid rgb(188, 187, 187);
     margin-bottom: 1rem;
     padding: 0%;
 
 }
 
-header {
-    padding: 0px;
+/* header {
+    padding-top: 10px;
     font-size: 14px;
-    /* margin-bottom: 0px;   Ne fonctionne pas */
-    /* border: 0cap;
-    margin: 0%; */
+    line-height: 10px;
+} */
+
+.buttons-menu {
+    display: flex;
 }
 
-/* div.button3 {
-    border: 1px solid grey;     ne fonctionne pas :'(
+.button3 {
+    border: 1px solid rgb(188, 187, 187);
     align-items: center;
-    border-radius:0.2;
-} */
-.subheader {
-    font-size: 18px;
-    margin-top: 0%;
-    padding: 0px;
+    border-radius: 10%;
+    background-color: white;
+    font-size: 9px;
+    font-weight: bolder;
+    color: rgb(80, 80, 168);
+
+    display: flex;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+.a {
+    display: inline;
 }
 
 .article1 {
+    display: inline;
     font-size: 12px;
     color: rgb(98, 97, 97);
-    font-style: italic;
+}
+
+.bleue {
+    color: blue;
 }
 
 .article2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: rgb(64, 64, 64);
-
 }
 
 .article3 {
@@ -77,14 +99,20 @@ nav {
 
 nav.navinnav {
     padding: 4px;
+    font-size: 8px;
     color: rgb(21, 21, 208);
     background-color: white;
     align-items: center;
     margin-bottom: 0px;
     display: flex;
     flex-grow: 1;
-    max-width: 200px;
+    max-width: 150px;
     justify-content: space-between;
+}
+
+.chevron {
+    color: rgb(84, 83, 83);
+    font-weight: bold;
 }
 
 .menu {
@@ -105,6 +133,11 @@ i {
     padding-right: 5px;
 }
 
+p.bleue {
+    text-align: center;
+    font-weight: bold;
+}
+
 div.actions {
     display: flex;
     align-items: center;
@@ -113,11 +146,9 @@ div.actions {
     justify-content: space-between;
 }
 
-
-
-.chevron {
-    color: rgb(84, 83, 83);
-    font-weight: bold;
+ul.tim {
+    padding: 0;
+    list-style: none;
 }
 
 /* nav.navinnav item:not(:last-child)::after {
@@ -148,13 +179,19 @@ select {
     font-size: smaller;
 }
 
-
+main {
+    padding-right: 1rem;
+}
 
 .logo {
     width: 5rem;
     padding: 5px;
     padding-right: 2rem;
 
+}
+
+.text {
+    margin-right: 1rem;
 }
 
 article {
@@ -164,5 +201,9 @@ article {
 @media (max-width: 579px) {
     .article2 {
         flex-direction: column-reverse;
+    }
+
+    figure img {
+        width: 10rem;
     }
 }
