@@ -66,18 +66,21 @@ i {
     padding-right: 5px;
 }
 
-.actions {
+div.actions {
     display: flex;
     align-items: center;
-    min-width: 150px;
+    min-width: 120px;
+    padding-right: 2px;
     justify-content: space-between;
-
 }
 
 nav.navinnav {
     padding: 5px;
     color: rgb(36, 36, 130);
     background-color: white;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
 }
 
 nav.navinnav item:not(:last-child)::after {
@@ -97,11 +100,19 @@ nav.navinnav item:not(:last-child)::after {
     margin: 5px 2px 5px 2px;
     padding: 2px 2px 2px 2px;
     font-size: small;
-
-
 }
 
-.button2 {}
+.button2 {
+    background: none;
+    color: white;
+}
+
+select {
+    background: none;
+    color: white;
+    border: none;
+    font-size: smaller;
+}
 
 .button3 {}
 
