@@ -1,6 +1,7 @@
 body {
     color: black;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 .boite1 {
@@ -19,6 +20,8 @@ body {
 .boite3 {
     border: 1px solid rgb(76, 75, 75);
     margin-bottom: 1rem;
+    padding: 0%;
+
 }
 
 header {
@@ -29,6 +32,11 @@ header {
     margin: 0%; */
 }
 
+/* div.button3 {
+    border: 1px solid grey;     ne fonctionne pas :'(
+    align-items: center;
+    border-radius:0.2;
+} */
 .subheader {
     font-size: 18px;
     margin-top: 0%;
@@ -140,7 +148,7 @@ select {
     font-size: smaller;
 }
 
-.button3 {}
+
 
 .logo {
     width: 5rem;
