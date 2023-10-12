@@ -3,14 +3,36 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.boite1 {
+    padding-left: 1rem;
+    border-left: 1px solid rgb(76, 75, 75);
+}
+
+.boite2 {
+    padding-left: 1.3rem;
+    border-left: 1px solid rgb(76, 75, 75);
+    border-top: 1px solid rgb(76, 75, 75);
+    border-bottom: 1px solid rgb(76, 75, 75);
+    max-width: 60%;
+}
+
+.boite3 {
+    border: 1px solid rgb(76, 75, 75);
+    margin-bottom: 1rem;
+}
+
 header {
-    margin-top: 10px;
-    font-size: 24px;
+    padding: 0px;
+    font-size: 14px;
+    /* margin-bottom: 0px;   Ne fonctionne pas */
+    /* border: 0cap;
+    margin: 0%; */
 }
 
 .subheader {
-    font-size: 16px;
-    font-stretch: semi-condensed;
+    font-size: 18px;
+    margin-top: 0%;
+    padding: 0px;
 }
 
 .article1 {
@@ -45,6 +67,18 @@ nav {
     height: 2rem;
 }
 
+nav.navinnav {
+    padding: 4px;
+    color: rgb(21, 21, 208);
+    background-color: white;
+    align-items: center;
+    margin-bottom: 0px;
+    display: flex;
+    flex-grow: 1;
+    max-width: 200px;
+    justify-content: space-between;
+}
+
 .menu {
     flex-grow: 1;
     display: flex;
@@ -71,23 +105,18 @@ div.actions {
     justify-content: space-between;
 }
 
-nav.navinnav {
-    padding: 5px;
-    color: rgb(36, 36, 130);
-    background-color: white;
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
-}
 
-nav.navinnav item:not(:last-child)::after {
-    content: '>';
-    padding-left: 5px;
-}
 
 .chevron {
-    color: black;
+    color: rgb(84, 83, 83);
+    font-weight: bold;
 }
+
+/* nav.navinnav item:not(:last-child)::after {
+    content: '>';
+    padding-left: 5px;
+} */
+
 
 .button1 {
     color: white;
